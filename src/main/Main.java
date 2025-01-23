@@ -19,11 +19,14 @@ public class Main extends Application {
         Repository repo = new Repository();
         Service service = new Service(repo);
         Controller controller = new Controller(service);
+
         fxmlLoader.setController(controller);
+
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        stage.setTitle("Weather Application");
         stage.setScene(scene);
         stage.show();
+        controller.initialize();
     }
 
     public static void main(String[] args) {

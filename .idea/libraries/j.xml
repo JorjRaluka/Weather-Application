@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="j">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/slf4j-api-2.0.9.jar!/" />
+      <root url="jar://$USER_HOME$/sqlite-jdbc-3.47.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
